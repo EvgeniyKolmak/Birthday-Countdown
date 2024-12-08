@@ -16,7 +16,7 @@ const Birthday = ({ name, day, month }) => {
   if (name === undefined || day === undefined || month === undefined) {
     // This is if not enough params are provided
     name = 'Evgeniy'; // Name of the Person
-    month = 6; // Month of the Birthday
+    month = 10; // Month of the Birthday
     day = 6; // Day of the Birthday
   }
 
